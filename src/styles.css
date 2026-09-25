@@ -128,7 +128,7 @@ h3 {
   right: clamp(-80px, 3vw, 65px);
   bottom: -175px;
   width: min(48vw, 680px);
-  opacity: 0.3;
+  opacity: 0;
   filter: drop-shadow(0 24px 40px #0007);
   pointer-events: none;
 }
