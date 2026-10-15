@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const WHATSAPP = "557398704600";
+const WHATSAPP = "557999397300";
 const asset = (fileName) => `${import.meta.env.BASE_URL}assets/${fileName}`;
 const askViaWhatsApp = (trip) => {
   const message = trip
