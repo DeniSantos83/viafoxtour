@@ -72,6 +72,7 @@ function Header() {
         <img src={asset("logo.png")} alt="Via Fox Tour" />
       </a>
       <nav aria-label="Navegação principal">
+        <a href="#passeio">Passeio da vez</a>
         <a href="#destinos">Destinos</a>
         <a href="#experiencia">Por que viajar</a>
         <a href="#contato">Contato</a>
