@@ -207,6 +207,68 @@ function Destinations() {
   );
 }
 
+function FeaturedTrip() {
+  return (
+    <section className="featured-trip" id="passeio">
+      <div className="featured-trip-image">
+        <img
+          src={asset("tambaqui.jpeg")}
+          alt="Pessoa no Lago dos Tambaquis cercada pelos peixes"
+        />
+        <div className="featured-trip-date">
+          <span>PRÓXIMO PASSEIO</span>
+          <strong>12</strong>
+          <small>DEZ<br />2026</small>
+        </div>
+      </div>
+      <div className="featured-trip-copy">
+        <p className="eyebrow">ECO PARK LAGO DOS TAMBAQUIS</p>
+        <h2>Um sábado para viver de novo.</h2>
+        <p className="featured-lead">
+          Deixe a correria de lado, sinta a água refrescante e aproveite a
+          natureza sem ficar contando as horas.
+        </p>
+        <p>
+          No EcoPark Lago dos Tambaquis, o convite é para desacelerar e
+          aproveitar cada momento. Entre nas águas do lago e veja os tambaquis
+          nadando pertinho de você — a interação pode incluir alimentar e tocar
+          os peixes, sempre seguindo as orientações do parque.
+        </p>
+        <div className="trip-highlights" aria-label="Atividades do passeio">
+          <div><span>💦</span><p>Piscinas, toboáguas e Área Kids.</p></div>
+          <div><span>🛶</span><p>Caiaque, pedalinho, stand-up paddle e circuito inflável.</p></div>
+          <div><span>☀️</span><p>Natureza, descanso, restaurante e quiosques.</p></div>
+        </div>
+        <p className="trip-includes-title">A Via Fox Tour organiza tudo para você:</p>
+        <ul className="trip-includes">
+          <li>🚌 Transporte privativo de ida e volta.</li>
+          <li>🎟️ Day Use incluso.</li>
+          <li>🙋 Acompanhamento de guia.</li>
+        </ul>
+        <div className="trip-prices">
+          <div className="pix-price">
+            <span>PROMOÇÃO DE INAUGURAÇÃO</span>
+            <strong>R$ 189</strong>
+            <small>no Pix</small>
+          </div>
+          <div>
+            <b>Até 6x de R$ 39,50</b>
+            <p>no cartão sem juros</p>
+            <small>Valor total: R$ 236,99 · Economize R$ 47,99 no Pix.</small>
+          </div>
+        </div>
+        <p className="trip-disclaimer">
+          Alimentação e bebidas não inclusas. Algumas atividades podem ter
+          regras, disponibilidade ou cobranças específicas.
+        </p>
+        <WhatsAppButton trip="EcoPark Lago dos Tambaquis">
+          Garantir minha vaga
+        </WhatsAppButton>
+      </div>
+    </section>
+  );
+}
+
 function Experience() {
   return (
     <section className="experience" id="experiencia">
@@ -294,6 +356,7 @@ export default function App() {
       <main>
         <Hero />
         <Destinations />
+        <FeaturedTrip />
         <Experience />
         <Contact />
       </main>
