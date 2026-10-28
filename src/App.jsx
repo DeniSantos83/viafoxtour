@@ -234,6 +234,11 @@ function FeaturedTrip() {
           nadando pertinho de você — a interação pode incluir alimentar e tocar
           os peixes, sempre seguindo as orientações do parque.
         </p>
+        <p>
+          Prefere aventura ou descanso? Aqui você encontra possibilidades para
+          os dois — e espaços para relaxar, contemplar a natureza e aproveitar
+          a companhia de quem faz seus dias melhores.
+        </p>
         <div className="trip-highlights" aria-label="Atividades do passeio">
           <div><span>💦</span><p>Piscinas, toboáguas e Área Kids.</p></div>
           <div><span>🛶</span><p>Caiaque, pedalinho, stand-up paddle e circuito inflável.</p></div>
@@ -260,6 +265,11 @@ function FeaturedTrip() {
         <p className="trip-disclaimer">
           Alimentação e bebidas não inclusas. Algumas atividades podem ter
           regras, disponibilidade ou cobranças específicas.
+        </p>
+        <p className="trip-closing">
+          Imagine chegar em casa com o corpo leve, a mente tranquila e aquela
+          sensação gostosa de ter vivido um dia inesquecível. Esse com certeza
+          será um deles! ❤️
         </p>
         <WhatsAppButton trip="EcoPark Lago dos Tambaquis">
           Garantir minha vaga
