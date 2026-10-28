@@ -335,11 +335,16 @@ h2 {
 .featured-trip {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  max-width: 1240px;
+  margin: 0 auto 110px;
   background: #eaf4ee;
   color: var(--blue);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 46px #1a2b3c14;
 }
 .featured-trip-image {
-  min-height: 760px;
+  min-height: 590px;
   position: relative;
 }
 .featured-trip-image > img {
@@ -385,7 +390,7 @@ h2 {
   line-height: 1.25;
 }
 .featured-trip-copy {
-  padding: clamp(64px, 8vw, 118px) clamp(26px, 8vw, 115px);
+  padding: clamp(50px, 5vw, 76px) clamp(26px, 5vw, 72px);
 }
 .featured-trip-copy h2 {
   max-width: 570px;
@@ -654,9 +659,11 @@ footer span {
   .featured-trip {
     display: flex;
     flex-direction: column;
+    margin: 0 16px 72px;
+    border-radius: 14px;
   }
-  .featured-trip-image { min-height: 470px; }
-  .featured-trip-copy { padding: 64px 25px 76px; }
+  .featured-trip-image { min-height: 310px; }
+  .featured-trip-copy { padding: 45px 22px 54px; }
   .trip-prices { grid-template-columns: 1fr; }
   .experience-photo {
     height: 390px;
